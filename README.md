@@ -19,7 +19,7 @@ The code repository for "Semantics-driven attentive few-shot learning over clean
 
 Over the last couple of years, few-shot learning (FSL) has attracted significant attention towards minimizing the dependency on labeled training examples. An inherent difficulty in FSL is handling ambiguities resulting from having too few training samples per class. To tackle this fundamental challenge in FSL, we aim to train meta-learner models that can leverage prior semantic knowledge about novel classes to guide the classifier synthesis process. In particular, we propose semantically-conditioned feature attention and sample attention mechanisms that estimate the importance of representation dimensions and training instances. We also study the problem of sample noise in FSL, towards utilizing meta-learners in more realistic and imperfect settings. Our experimental results demonstrate the effectiveness of the proposed semantic FSL model with and without sample noise.
 
-<img src='imgs/fig_bugra-semantic-fsl-method.pdf' width='640' height='280'>
+<img src='imgs/fig_bugra-semantic-fsl-method.png' width='640' height='280'>
 
 ## Requirements
 
